@@ -2,3 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.sign-in-background-image {
+  background-image: url('../src/app/Images/background-images/pexels-ivo-rainha-527110-1290141.jpg'); /* Adjust path based on your image location */
+  background-size: cover;
+  background-position: center;
+  object-fit: "contain";
+  height:100%;
+  padding: 10%;
+  /* Add other styling as needed, e.g., height, padding */
+}
