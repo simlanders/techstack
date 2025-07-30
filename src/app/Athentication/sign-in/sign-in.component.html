@@ -1,9 +1,14 @@
 <div class="sign-in-background-image">
-  <div class = "section">
-    <div class = "button-row">
-    <button matButton="filled">Sign In</button>
-     <button matButton="outlined">Sign up</button>
-     </div>
+
+
+  <div class="section" *ngIf="isVisible">
+    <div class="image-container">
+      <img src='/Images/logo/techStackLogo.png' class="image">
+    </div>
+    <div class="button-row">
+      <button mat-raised-button>Sign In</button>
+      <button mat-raised-button class="my-sign-in-button">Sign up</button>
+    </div>
   </div>
 
 </div>
