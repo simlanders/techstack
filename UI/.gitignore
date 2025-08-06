@@ -37,6 +37,24 @@ yarn-error.log
 testem.log
 /typings
 
+
 # System files
 .DS_Store
 Thumbs.db
+
+# (Only for non-sensitive components in specific testing scenarios)
+
+# Private keys (NEVER commit these)
+*.key
+*.pem
+*.crt
+*.cnf
+# Certificate Signing Requests (CSRs)
+*.csr
+
+# Passwords for keys
+*.pass.key
+
+# Specific certificate files that are not meant for public distribution
+# and contain sensitive information.
+my_private_cert.crt
