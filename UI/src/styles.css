@@ -11,7 +11,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .sign-in-background-image {
-  background-image: url('../public/Images/background-images/laptop-with-different-applications-installed.jpg');
+  background-image: url('../public/images/background-images/laptop-with-different-applications-installed.jpg');
   /* Adjust path based on your image location */
   background-size: cover;
   background-position: center;
